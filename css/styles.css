@@ -11,12 +11,17 @@ img {
 }
 
 .mainContainer {
+  position: fixed;
+  inset: 0;
+  width: fit-content;
+  height: fit-content;
+
   max-width: 288px;
   max-height: 465px;
   text-align: center;
 
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+
   padding: 16px;
 
   border-radius: 15px;
